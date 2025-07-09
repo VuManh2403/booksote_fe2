@@ -23,16 +23,16 @@ export const Slidebar: React.FC<SlidebarProps> = (props) => {
 			style={{ zIndex: "100" }}
 		>
 			<div className='px-3'>
-				<a
+				<Link
 					className='text-decoration-none d-flex align-items-center text-white d-none d-sm-flex align-items-sm-center justify-content-center'
-					href='#'
+					to='/'
 				>
 					<img
 						src='/images/public/BookStore.png'
 						alt=''
 						width={100}
 					/>
-				</a>
+				</Link>
 				<hr className='text- white d-none d-sm-block d-md-block' />
 				<ul className='nav nav-pills flex-column' id='parentM'>
 					<li className='nav-item'>
